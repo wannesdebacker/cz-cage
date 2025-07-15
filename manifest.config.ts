@@ -3,7 +3,7 @@ import { defineManifest } from '@crxjs/vite-plugin';
 export default defineManifest({
     manifest_version: 3,
     name: 'CzCage',
-    version: '1.0.0',
+    version: '1.0.1',
     description: 'Randomly replaces images on webpages',
     permissions: ['storage', 'activeTab'],
     host_permissions: ['<all_urls>'],
